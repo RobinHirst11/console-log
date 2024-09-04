@@ -11,13 +11,13 @@ This script runs any command you specify and sends the **entire console output**
 3. **Run the script:**
 
    ```bash
-   ./send-discord-log.sh your_command your_arguments
+   ./send-discord-log.sh your_command
    ```
 
 **Example:**
 
 ```bash
-./send-discord-log.sh ./my_script.sh arg1 arg2
+./send-discord-log.sh ./my_script.sh
 ```
 
 This will run `my_script.sh` and send its entire console output to your Discord channel, whether it succeeds or fails.
